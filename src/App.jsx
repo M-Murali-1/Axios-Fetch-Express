@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Practice from './components/Practice'
+import Axios from './components/Axios'
 // import './App.css'
 
 
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
      <p>This is the good thing..!</p>
-     <Practice/>
+     {/* <Practice/> */}
+     <Axios/>
     </>
   )
 }
