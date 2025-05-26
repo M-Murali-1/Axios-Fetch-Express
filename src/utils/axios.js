@@ -44,3 +44,6 @@ export const axiosQueryParamsPost = async (postBody) => {
   const result = response.data;
   console.log("Output:", result);
 };
+
+
+// For the PUT,DELETE we will follow the same axios code just to change the method in the axios.
